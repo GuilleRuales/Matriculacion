@@ -32,4 +32,10 @@ public class Profesor {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
+
+    public void imprimirDatosProfesor(){
+        System.out.println("El nombre del profesor es: "+nombre);
+        System.out.println("La cedula del profesor es: "+cedula);
+        System.out.println("El codigo del profesor es: "+codigo);
+    }
 }

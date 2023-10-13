@@ -14,12 +14,6 @@ public class Estudiante {
         this.nombre = nombre;
     }
 
-    public Estudiante(Materia materia1, Materia materia2, Materia materia3) {
-        this.materia1 = materia1;
-        this.materia2 = materia2;
-        this.materia3 = materia3;
-    }
-
     public String getMatricula() {
         return matricula;
     }
@@ -68,7 +62,10 @@ public class Estudiante {
         this.materia3 = materia3;
     }
 
-    public void imprimirMaterias(){
-        System.out.println("Las materias del alumno "+nombre+" son: "+materia1+ ", "+materia2+ ", "+materia3);
+    public void imprimirDatosEstudiante(){
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Cedula: "+cedula);
+        System.out.println("Matricula: "+matricula);
     }
+
 }
